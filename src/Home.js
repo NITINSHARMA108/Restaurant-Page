@@ -33,7 +33,21 @@ function Home(){
     div2.appendChild(img2);  
 
     div.appendChild(div2);
+    //images
+/*
+   const div3=document.createElement('div');
+    div3.setAttribute('class','images');
+    const images=['https://scontent-frt3-1.cdninstagram.com/v/t51.29350-15/246565439_4518618921552384_7550422686738832237_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=WdhQyON-ntsAX-F-YN_&_nc_ht=scontent-frt3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=39bcc9a0b3a05002c59d7ea9fcd9c3bb&oe=6183F872','https://scontent-frt3-1.cdninstagram.com/v/t51.29350-15/163630756_2706849332939027_4275179176266503497_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=rSuyJbP4eZ4AX-UsApv&_nc_oc=AQmAWdg0Zu1PLaAn7j3GnYbGFpI14DkgPaSWGlNy-4HwpqAQACu-kZoLwOpFS_zDB7veJE1oZZ92gdaCng4ysPzH&_nc_ht=scontent-frt3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=ca3090c40040879668989fc67c46adae&oe=6183BBE9',
+    'https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/148923680_167457741811404_8183301423186833357_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=TjQvTvQjO9cAX-jMMMp&_nc_ht=scontent-frx5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=293dc489949830afece8bf6f029420e0&oe=6184CC17','https://scontent-frx5-1.cdninstagram.com/v/t51.29350-15/141811960_274318227375414_1098552851120270597_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=h8qXKArCs8gAX9PXpkC&_nc_ht=scontent-frx5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=f47f0e0a2e5374ef4e484b395bef2c2c&oe=618415E8',
+    'https://scontent-frt3-1.cdninstagram.com/v/t51.29350-15/141045924_762241214384989_8882980339900769582_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=6zzKm7mUrgUAX9unPnP&_nc_ht=scontent-frt3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=d925ca30631360b4094283a75dcadeee&oe=6183E8C7','https://scontent-frt3-1.cdninstagram.com/v/t51.29350-15/200188878_2614819722156563_6099168595901390891_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=yxbPF0aNjOMAX8PXQd3&_nc_ht=scontent-frt3-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=f281320d8a14f59272a15d54fce0ab44&oe=6183B014'];
+    images.map((image)=>{
+        const i=document.createElement('img');
+        i.setAttribute('src',image);
+        div3.appendChild(i);
 
+    })
+    div.appendChild(div3);
+*/
 
 }
 export default Home;
