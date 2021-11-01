@@ -185,7 +185,8 @@ footer{
 }
 @media screen and (max-width:600px){
     .nav button{
-        display:none;
+        font-size:0.7em;
+    
     }
     .contact-page{
         width:100%;
@@ -238,3 +239,12 @@ footer{
         width:80%;
     }
 }*/
+@media screen and (max-width:300px){
+    .nav h1{
+        font-size:1em;
+    }
+    .nav button{
+        font-size:0.7em;
+        padding:5px;
+    }
+}
